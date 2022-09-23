@@ -13,7 +13,7 @@ public class HelloWorldController {
         String message="You just create Spring Boot Example successfully";
         model.addAttribute("name", name);
         model.addAttribute("message", message);
-        
+        System.out.println("Shankar Arukala");
         return "hello";
     }
 }
