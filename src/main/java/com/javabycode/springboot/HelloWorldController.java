@@ -29,4 +29,7 @@ public class HelloWorldController {
         System.out.println("Arukala Shankar");
         return "hello";
     }
+    public void save() {
+    	System.out.println("save...");
+    }
 }
