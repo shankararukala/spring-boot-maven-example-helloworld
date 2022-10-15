@@ -14,8 +14,13 @@ public class HelloWorldController {
         model.addAttribute("name", name);
         model.addAttribute("message", message);
         System.out.println("Shankar Arukala");
+<<<<<<< HEAD
         
         System.out.println("MGU, NLG");
+=======
+        //System.out.println("This is my first Project");
+        System.out.println("MGU , NLG);
+>>>>>>> 1defff654f2ba16fc602aff4432c2e537c38ddf7
         return "hello";
     }
 }
