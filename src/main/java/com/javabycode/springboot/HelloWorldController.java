@@ -16,10 +16,10 @@ public class HelloWorldController {
         System.out.println("Shankar Arukala");
         System.out.println("This is my first Project");
         System.out.println("MGU, NLG");
-       // System.out.println("Nagaraju");
-        //System.out.println("Shankar");
+        System.out.println("Nagaraju");
+        System.out.println("Shankar");
         System.out.println("ARUKALA");
-        System.out.println("DVK");
+        System.out.println("AS");
         return "hello";
     }
 }
