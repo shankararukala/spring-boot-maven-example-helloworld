@@ -13,7 +13,28 @@ public class HelloWorldController {
         String message="You just create Spring Boot Example successfully";
         model.addAttribute("name", name);
         model.addAttribute("message", message);
+        System.out.println("Shankar Arukala");
+        System.out.println("This is my first Project");
+        System.out.println("MGU, NLG");
+        System.out.println("Nagaraju");
+        System.out.println("Shankar");
+        System.out.println("ARUKALA");
+        System.out.println("AS");
+
+        System.out.println("JL");
+        System.out.println("Arukala Shiva");
+
+        System.out.println("Mukesh Arukala");
         
+        System.out.println("Arukala Shankar");
         return "hello";
     }
+
+    public void save() {
+    	System.out.println("save...");
+    }
+    public void update(){
+        System.out.println("update......");
+    }
+ 
 }
